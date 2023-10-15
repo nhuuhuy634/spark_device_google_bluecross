@@ -1,0 +1,32 @@
+# DRM
+drm.service.enabled=true
+media.mediadrmservice.enable=true
+
+# Graphics
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
+debug.sf.auto_latch_unsignaled=true
+debug.sf.enable_egl_image_tracker=1
+ro.hwui.render_ahead=20
+
+# Fling Velocity
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
+ro.vendor.qti.cgroup_follow.enable=true 
+persist.vendor.qti.inputopts.enable=true 
+persist.vendor.qti.inputopts.movetouchslop=0.6 
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
+# RIL Powersaving
+persist.radio.add_power_save=1
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+ro.ril.fast.dormancy.rule=1
+ro.ril.fast.dormancy.timeout=3
+ro.mot.eri.losalert.delay=100
+ro.vendor.use_data_netmgrd=true
+ro.vold.umsdirtyratio=20
+power.saving.mode=1
+
+# Perf
+ro.vendor.perf.scroll_opt=true
